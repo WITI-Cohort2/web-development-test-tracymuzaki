@@ -1,0 +1,106 @@
+<!-- Name: Muzaki Tracy 
+Reg No: 2022/DCSE/022/SS
+Stud No: 22032 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulago Hospital</title>
+    <style>
+        * {
+            background-color: lavender;
+        }
+
+        h1 {
+            margin-left: 250px;
+        }
+
+        form {
+            background-color: rgba(16, 22, 0, 0.5);
+            border: 1px rgba(16, 22, 0, 0.5) solid;
+            margin: 20px 400px 0px 150px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        label {
+            margin-left: 10px;
+        }
+
+        input {
+            margin: 10px;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        #First_and_last_name {
+            margin-left: 90px;
+        }
+
+        #Email_address {
+            margin-left: 90px;
+        }
+
+        #Phone_number {
+            margin-left: 30px;
+        }
+
+        #Male {
+            margin-left: 80px;
+        }
+
+        button {
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+
+        textarea {
+            margin-left: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <section>
+            <h1>Survey Form</h1>
+            <form action="">
+                <label for="First_and_last_name"><b>Name: </b></label>
+                <input type="text" name="name" id="First_and_last_name"><br>
+                <label for="Email_address"><b>Email: </b></label>
+                <input type="email" name="email" id="Email_address"><br>
+                <label for="Phone_number"><b>Phone number: </b></label>
+                <input type="tel" name="phone_number" id="Phone_number"><br>
+                <label for="Place_of_residence"><b>Place of residence: </b></label>
+                <input type="text" name="place_of_residence" id="Place_of_residence"><br>
+                <label for="Gender"><b>Gender: </b></label>
+                <input type="radio" name="gender" id="Male"><label for="Male">Male</label>
+                <input type="radio" name="gender" id="Female"><label for="Female">Female</label><br>
+                <label for="Age_range"><b>Age range:</b></label><br>
+                <input type="radio" name="age_range" id="0 to 10years"><label for="0 to 10years">0-10years</label><br>
+                <input type="radio" name="age_range" id="10 to 20years"><label
+                    for="10 to 20years">10-20years</label><br>
+                <input type="radio" name="age_range" id="20 t0 30years"><label
+                    for="20 to 30years">20-30years</label><br>
+                <input type="radio" name="age_range" id="30 to 40years"><label
+                    for="30 to 40years">30-40years</label><br>
+                <input type="radio" name="age_range" id="40 to 50years"><label
+                    for="40 to 50years">40-50years</label><br>
+                <input type="radio" name="age_range" id="50 and above"><label for="50 and above">50years and
+                    above</label><br>
+                <label for="Comments"><b> Comment: </b></label><br>
+                <textarea name="comments" id="comments" cols="30" rows="10"
+                    placeholder="Comments about a patient"></textarea><br>
+                <label for="Terms and Conditions">Terms and conditions</label>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

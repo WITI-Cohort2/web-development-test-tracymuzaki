@@ -1,0 +1,10 @@
+Name: Muzaki Tracy 
+Reg No: 2022/DCSE/022/SS
+Stud No: 22032
+
+1.(a). Elements are HTML keywords that describe the text being entered into a web page in the HTML page.For example p is a paragraph element.
+  (b). Attributes are properties and values attached to HTML elements. 
+  (c). Selectors are CSS elements used to style an HTML page.For example Universal selector, descent selector, class among others
+  (d). Semantic elements are correctly written HTML tag names used to make a web page and recognised by the browsers. For example p is a paragraph element that is semantic.
+  (e). Web accessibility is when the web page is designed in such away that it is easily accessed and understood by people with disabilities.
+  (f). Web server is the main compouter that stores information used by web browsers to answer client requests.
